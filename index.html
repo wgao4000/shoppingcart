@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Shopping List</title>
+<meta charset="uft-8">
+<meta name="author" content="Wei Gao">
+<meta name="keywords" content="HTML, CSS, jQuery">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<meta HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE">
+<meta HTTP-EQUIV="EXPIRES" CONTENT="Mon, 01 Jan 1990 12:00:00 GMT">
+<link rel="stylesheet" type="text/css" href="font-awesome-4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="shoppingcart.css">
+</head>
+<body>
+<header>
+	<div class="container text-center">
+		<div class="row row-1">
+			<div class="responsive-img">
+				<img src="shoppingcart.jpg">
+				<h1>Shopping Cart</h1>
+			</div>
+		</div>
+		<div class="row text-left">
+			<div class="panel panel-info">
+				<div class="panel-heading">
+					<div class="panel-title">
+						<h2> Simple Instructions:</h2>
+					</div>
+				</div>
+				<div class="panel-body text-primary">
+					<p>Please enter your item name, then press "enter" key so that you can add more details to this item, you 	may enter more item names, then remove some itmes later before clicking the "checkout" button.</p>
+					<p>When you have entered all the items, and are comfortable with the total price, please press the "Checkout" button to check out all the items.</p>
+				</div>
+			</div>
+		</div>
+		<div class="row text-left">
+			<form class="form-horiontal" method="post" novalidate>
+				<div class="form-group">
+					<label class="control-label col-sm-2 col-xs-4" for="item-name">Item name:</label>
+					<div class="col-xs-7 col-sm-4">
+						<input type="text" placeholder="Item Name" required class="form-control" id="item-name">
+					</div>
+				</div>
+				<div class="form-group col-xs-2" id="item-name-group">
+					<input type="submit" class="btn btn-success" value="Checkout" id="checkout">
+				</div>
+			</form>
+		</div>
+	</div>
+</header>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="shoppingcart.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+h1, h4 {
+	display: inline-block;
+}
+
+.row, .row1 {
+	padding: 1em;
+}
+
+#item-row {
+	clear: left;
+	margin-left: 0;
+}
+
+.button1, .button2, .totValdiv, #item-name-group{
+	margin: 0.5em;
+}
+
+.button1 {
+	margin-left: 0;
+}
+
+.item-name {
+	whitespace: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
